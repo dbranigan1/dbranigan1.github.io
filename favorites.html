@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Practice Using CSS</title>
+    </head>
+<style>
+        body {
+                background: rgba(124, 9, 231)), 0, 0);
+                color: black;
+                padding: 10px;
+                font-family: arial;
+                font-size: 20px;
+            }
+            #all-contents {
+                margin: auto;
+                justify-content: center;
+            }
+            /* navigation menu */
+            nav {
+                background: rgb(0, 255, 42);
+                margin: auto;
+                display: flex;
+                padding:10px;
+                border-radius: 10px;
+                border-color: black;
+                margin: 0 auto;
+                margin-bottom: 15px;
+                max-width: fit-content;
+                box-shadow: 6px 6px #0000004b;
+                width: 1500px;
+            }
+            h1 {
+                display: flex;
+                align-items: center;
+                color: black;
+                flex: 1;
+                margin: 10px;
+                font-style: oblique;
+                font-size: 40px;
+                padding: 10px;
+            }
+            #nav-ul {
+                list-style-image: none;
+            }
+            .nav-li {
+                display: inline-block;
+                padding: 5px;
+            }
+            .nav-a {
+                text-decoration: none;
+                color: rgb(255, 0, 212);
+                padding-right: 25px;
+            }
+    
+            /* main container area beneath menu */
+            main {
+                background: rgb(0, 204, 255);
+                display: flex;
+                border-radius: 10px;
+                border-color: black;
+                max-width: 1000px;
+                justify-content: center;
+                box-shadow: 6px 6px #0000004b;
+                margin: auto;
+            }
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                padding-right: 100px;
+            }
+         .content h1 {
+            display: flex;
+                align-items: center;
+                color: black;
+                flex: 1;
+                margin: 0;
+                font-style: oblique;
+                font-size: 40px;
+                padding: 10px;
+         }
+         
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+         
+         #portfolio li {
+            transition: 150ms;
+             background: rgb(0, 255, 255);
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+             margin-left: 20px;
+             margin-right: 20px;
+             box-shadow: 6px 5px #0000004b;
+             margin-bottom: 15px;
+         }
+         
+         #portfolio li:hover {
+             background: rgb(70, 0, 128);
+             box-shadow: 10px 8px rgba(255, 255, 255, 0.294);
+         } 
+         
+         #portfolio a {
+             text-decoration: none;
+             color: rgb(255, 255, 255);
+         }
+         h2 {
+            margin-left: 10px;
+         }
+</style>
+    <body>
+        <div id="all-contents">
+        <nav>
+            <br>
+            <h1>My Favorite Movies/TV Shows</h1>
+            <ul id="nav-ul">
+                <li class="nav-li"><a class="nav-a" href="index.html">Home</a></li>
+                <li class="nav-li"><a class="nav-a" href="portfolio.html">Portfolio</a></li>
+                <li class="nav-li"><a class="nav-a" href="images.html">Images</a></li>
+                <li class="nav-li"><a class="nav-a" href="video.html">Videos</a></li>
+            </ul>
+        </nav>
+        <main>
+        <div class="content">
+          <!-- PUT YOUR NAME AND CLASS PERIOD BELOW -->
+            <h2>A 5th Hour Project by: Dallas Branigan </h2>
+            <ul id="portfolio">
+            <li><a href="https://www.youtube.com/watch?v=2LZN_SrilYo" target="_blank">Pacfic Rim: Robots Vs Huge Monsters, What's Not To Like?</a></li>
+            <li><a href="https://www.youtube.com/watch?v=3sGt0qnSUPQ" target="_blank">Regular Show: An Irregular Show about a Bluejay and a Raccoon.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=7ZVEIgPeDCE" target="_blank">Diary Of A Wimpy Kid: A Story About A Wimpy Kid.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=1WwAodx7jhw" target="_blank">Spongebob Squarepants: A Show That Made Up All Of Our Childhoods.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=MpkrMqmmy5k" target="_blank">Star Wars: A New Hope: In A Galaxy Far Far Away.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=rXNM802ip-Q" target="_blank">Godzilla: Final Wars: When Aliens Take Over Earth, Only One Can Take It Back.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=pNo-Q0IDJi0" target="_blank">Muppets: A Christmas Carol: A Childhood Classic For Christmastime.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=cfjEZ88NHBw" target="_blank">A Christmas Story: Another Instant Classic For The Holdiays.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=cqGjhVJWtEg" target="_blank">Spider-man: Across The SpiderVerse: An Original Spin On The Classic Web-Head.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=Rz_FvTXa_qY" target="_blank">Jurassic Park: A Classic About The Dangers Of Mankind's Curiosity.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=RK0yd4LtLdg" target="_blank">Space Balls: A Comedic Twist On The Classic Space Tale.</a></li>
+            <li><a href="https://www.youtube.com/watch?v=hA6hldpSTF8" target="_blank">Avengers: Infinity War: An Epic Culmination Of Over 10 Years Of Cinema.</a></li>
+
+            </ul>
+        </div>
+        </main>
+      </div>
+    </body>
+</html>
